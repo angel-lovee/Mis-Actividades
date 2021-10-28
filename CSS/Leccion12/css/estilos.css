@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    color: #e63946;
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 15px 2px orangered;
+    color: orangered;
+    border-radius: 15px;
+}
+div.cabecero{
+    background-color: #00259e;
+}
+div.cuerpo{
+    padding-top: 2px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black; 
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios Login</title>
+    <link rel="stylesheet" href="/css/estilos.css"/>
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Login</h2>
+        <form id="forma" name="forma" method="POST">
+            <div class="elemento">
+                <label for="usuario">Usuario</label>
+                <input type="text" name="usuario" id="usuario" required="true"/>
+            </div>
+            <div class="elemento">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required="true"/>
+            </div>
+            <div class="elemento">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <h1>Formularios en HTML</h1>
+<form action="mi_servidor">
+    <fieldset>
+         <legend>Datos Personales:</legend>
+
+            <label for="idPersona">ID Persona:</label><br/>
+            <input type="text" name="idPersona" id="idPersona"
+                readonly="true" value="100"  /><br/>
+
+            <input type="hidden" name="sistema" id="sistema" value="SAP"/>  
+
+            <label for="nombre">Nombre:</label><br/>
+            <input type="text" name="nombre" id="nombre"
+            placeholder="Escribe tu nombre" required="true"/><br/>
+            
+            <label for="apellido">Apellido:</label><br/>
+            <input type="text" name="apellido" id="apellido"
+            placeholder="Escribe tu apellido" required="true"/><br/>
+            
+            <label for="email">Email:</label><br/>
+            <input type="email" name="email" id="email"/><br/>
+            
+            <label for="edad">Edad:</label><br/>
+            <input type="numer" name="edad" id="edad" step="any"/><br/>
+            
+            <label>Género</label><br/>
+            <input type="radio" id="femenino" name="genero" value="femenino"/>
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="masculino" name="genero" value="masculino"/>
+            <label for="masculino">Masculino</label><br/>
+            <br/>
+            <label>Género Música Favorita</label><br/>
+            <input type="checkbox" name="musica" id="clasica" value="clasica"/>
+            <label for="clasica">Clásica</label><br/>
+            <input type="checkbox" name="musica" id="dembow" value="dembow"/>
+            <label for="dembow">Dembow</label><br/>
+            <br/>
+            <label for="autos">Marca Auto favorita:</label><br/>
+            <select name="autos" id="autos">
+                <option value="volvo">Volvo</option>
+                <option value="bmw">BMW</option>
+                <option value="audi" selected="true">Audi</option>
+            </select><br/>
+            
+            <label for="comentario">Comentario:</label> <br/>
+            <textarea name="comentario" id="comentario" cols="30" rows="2"
+            >Este es mi comentario
+        </textarea>
+        <br/>
+        <input type="submit" value="Enviar"/>
+        <input type="submit" formnovalidate="formnovalidate"
+            value="Enviar sin validar"/>
+        <input type="reset" value="restablecer">
+
+    </fieldset>
+</form> -->

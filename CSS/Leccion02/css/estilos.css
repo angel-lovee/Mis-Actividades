@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    
+}
+
+.solido{
+    border:  solid red;
+    border-width: 5px ;
+    border-radius: 20px;
+}
+.redondeado{
+    border: 5px solid blueviolet;
+    border-radius: 20px 0px 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .rojo{
+    border: 10px solid firebrick ;
+    background-color: firebrick;
+}
+.rosa{
+    border: 10px dashed rgb(255, 105, 180) ;
+    background-color: hotpink;
+}
+.amarillo{
+    border: 10px double #ffd700 ;
+    background-color: lime;
+}
+.azul{
+    border: 10px dotted hsl(240, 100%, 50%) ;
+    background-color: blue;
+} */
